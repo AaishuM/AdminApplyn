@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="260dp"
+        android:layout_height="280dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="8dp"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:padding="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/featured_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REGISTERED APPLYING STUDENTS "
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"/>
+            
+            <!--<RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="3.5"
+                style="@style/Widget.AppCompat.RatingBar.Small"/>-->
+            <TextView
+                android:id="@+id/students_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="Being one of the universities offering International students scholarships"/>
+
+            <TextView
+                android:id="@+id/studentsInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="Being one of the universities offering International students scholarships"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/newlogor"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AdminApply"
+        tools:targetApi="31">
+        <activity
+            android:name=".InternationalLog.SendInter20Doc"
+            android:exported="false" />
+        <activity
+            android:name=".Both.FetchFinancialDoc"
+            android:exported="false" />
+        <activity
+            android:name=".InternationalLog.InterPdfFiles"
+            android:exported="false" />
+        <activity
+            android:name=".Both.SendAcceptedStud"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.StatisticsGraph"
+            android:exported="false" />
+        <activity
+            android:name=".Both.ApplicantsQuery"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.SendNotif"
+            android:exported="false" />
+        <activity
+            android:name=".InternationalLog.InternationalDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".InternationalLog.InternationalSignUp"
+            android:exported="false" />
+        <activity
+            android:name=".InternationalLog.InternationalLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.RetrievePdf"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.RetreiveFiles"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Both.CombinationLogin"
+            android:exported="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Admin.Sign"
+            android:exported="false" />
+
+        <service
+            android:name=".Admin.FirebaseMessagingService"
+            android:exported="true"
+            android:permission="TODO"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

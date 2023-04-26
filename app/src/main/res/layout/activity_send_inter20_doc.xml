@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InternationalLog.SendInter20Doc">
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/giveUploadName"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Select File from storage"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSubmit"
+        android:layout_below="@+id/giveUploadName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:text="@string/reg_menuName1"
+        android:background="@color/white"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        /><Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnSave"
+    android:layout_below="@+id/btnSubmit"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="70dp"
+    android:text="@string/reg_menuName1"
+    android:background="@color/white"
+    android:textSize="20sp"
+    android:textColor="@color/black"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDone"
+        android:layout_below="@+id/btnSave"
+        android:layout_centerHorizontal="true"
+        android:text="@string/submit_done"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

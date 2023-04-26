@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/rest-auto"
+    xmlns:app1="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ResAuto"
+    app1:cardElevation="6dp"
+    app1:cardCornerRadius="8dp"
+    android:layout_margin="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student name: "
+            android:textColor="@color/grey"
+            android:textSize="26sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:id="@+id/fullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sdg"
+            android:textColor="@color/grey"
+            android:textSize="26sp">
+        </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date Of Birth: "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/DateBirth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CountryofBirth "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/CountryofBirth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PlaceofBirth "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/PlaceofBirth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CountryofResidence: "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/CountryofResidence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Province: "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/Province"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email: "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/myEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Country "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/Country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact: "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/Contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="School: "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/School"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SchoolLocation: "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/SchoolLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SchoolCourse: "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/SchoolCourse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SchoolGPA: "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/SchoolGPA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College: "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/College"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CollegeLocation: "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/CollegeLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CollegeCourse: "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/CollegeCourse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CollegeGPA: "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/CollegeGPA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University: "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/University"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UniversityLocation: "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/UniversityLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UniversityCourse: "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/UniversityCourse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UniversityGPA: "
+                android:textColor="@color/grey"
+                android:textSize="26sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/UniversityGPA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdg"
+                android:textColor="@color/grey"
+                android:textSize="26sp">
+            </TextView>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

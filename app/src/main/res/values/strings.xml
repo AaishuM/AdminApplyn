@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Admin International connect</string>
+    <string name="student_app_package_name">com.uniguides.userscampusapply</string>
+    <string name="msg_token_fmt">Token: %s</string>
+
+
+    <!-- login page -->
+    <string name="login_menu2">Login</string>
+    <string name="login_menu">International Login</string>
+    <string name="enter_username">Enter login Id</string>
+    <string name="enter_user_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="signUp_not">Login in to the International Connect</string>
+    <!-- signup page -->
+    <string name="sign_up">Sign Up</string>
+    <string name="signUp_already">Already have an Account?,Login</string>
+    <string name="sign_upName">name</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="reg_menuName1">Upload File</string>
+    <string name="reg_menuName2">Upload File</string>
+    <string name="submit_done">Done</string>
+</resources>
