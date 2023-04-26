@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".InternationalLog.InternationalLogin"
-    android:background="@drawable/loginbak">
+    android:background="@drawable/bkg">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -66,7 +66,7 @@
                 app:boxStrokeColor="@color/black"
                 app:boxStrokeWidthFocused="4dp"
                 app:startIconDrawable="@drawable/user_name_icon"
-                app:startIconTint="@color/white"
+                app:startIconTint="@color/black"
                 app:endIconMode="clear_text"
                 app:endIconTint="@color/black"
                 android:layout_marginLeft="25dp">
@@ -90,7 +90,7 @@
                 app:boxStrokeColor="@color/black"
                 app:boxStrokeWidthFocused="4dp"
                 app:startIconDrawable="@drawable/password_icon"
-                app:startIconTint="@color/white"
+                app:startIconTint="@color/black"
                 app:endIconMode="password_toggle"
                 app:endIconTint="@color/black"
                 android:layout_marginLeft="21dp"
@@ -129,6 +129,7 @@
                     android:background="#00000000"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
+                    android:textColor="@color/black"
                     android:layout_marginRight="40dp"/>
             </RelativeLayout>
 
@@ -138,10 +139,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="5dp"
-                android:backgroundTint="@color/newBg"
+                android:backgroundTint="@color/blue"
                 android:text="@string/login_menu2"
                 android:textSize="20sp"
-                android:textColor="#E1BEE7"
+                android:textColor="@color/black"
                 android:layout_gravity="center"
                 app:cornerRadius = "20dp"
                 tools:ignore="VisualLintButtonSize" />

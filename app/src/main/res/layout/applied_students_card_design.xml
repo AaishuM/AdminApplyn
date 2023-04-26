@@ -10,6 +10,7 @@
             android:layout_width="match_parent"
             android:layout_height="420dp"
             android:padding="15dp"
+            android:background="@drawable/bkg"
             android:orientation="vertical">
 
             <TextView

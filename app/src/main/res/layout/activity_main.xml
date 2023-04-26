@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Admin.Sign"
-    android:background="@drawable/signupbak">
+    android:background="@drawable/bkg">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -43,7 +43,7 @@
                 app:endIconTint="@color/black"
                 app:hintTextColor="@color/black"
                 app:startIconDrawable="@drawable/user_name_icon"
-                app:startIconTint="@color/white">
+                app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/signUp_Name"
@@ -68,7 +68,7 @@
                 app:endIconTint="@color/black"
                 app:hintTextColor="@color/black"
                 app:startIconDrawable="@drawable/user_name_icon"
-                app:startIconTint="@color/white">
+                app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/signUp_Username"
@@ -92,7 +92,7 @@
                 app:endIconTint="@color/black"
                 app:hintTextColor="@color/black"
                 app:startIconDrawable="@drawable/email_icon1"
-                app:startIconTint="@color/white">
+                app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/signUp_email"
@@ -118,7 +118,7 @@
                 app:endIconTint="@color/black"
                 app:hintTextColor="@color/black"
                 app:startIconDrawable="@drawable/password_icon"
-                app:startIconTint="@color/white">
+                app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/signUp_Password"
@@ -139,10 +139,10 @@
                 android:layout_marginRight="20dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="5dp"
-                android:backgroundTint="@color/newBg"
+                android:backgroundTint="@color/blue"
                 android:text="@string/sign_up"
                 android:textSize="20sp"
-                android:textColor="#E1BEE7"
+                android:textColor="@color/black"
                 android:layout_gravity="center"
                 app:cornerRadius = "20dp"
                 tools:ignore="VisualLintButtonSize" />

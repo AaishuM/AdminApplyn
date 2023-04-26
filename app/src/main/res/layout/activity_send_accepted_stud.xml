@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bkg"
     tools:context=".Both.SendAcceptedStud">
 
 
@@ -53,6 +54,6 @@
         android:layout_centerHorizontal="true"
         android:text="@string/submit_done"
         android:textSize="20sp"
-        android:textColor="@color/black"/>
+        android:textColor="@color/white"/>
 
 </RelativeLayout>
