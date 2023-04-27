@@ -94,7 +94,7 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
-                    android:text="Send Notifications"
+                    android:text="Send notifications to students"
                     android:textColor="@color/black"
                     android:id="@+id/SendNotification"
                     android:textSize="15sp"
@@ -105,7 +105,7 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
-                    android:text="Send Notifications2"
+                    android:text="Send notifications to database"
                     android:textColor="@color/black"
                     android:id="@+id/SendNotification2"
                     android:textSize="15sp"
@@ -128,7 +128,7 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
-                    android:text="Check Applicants Queries"
+                    android:text="Rules to Process Documents"
                     android:id="@+id/Studentqueries"
                     android:onClick="ApplicantsQueries"
                     android:textColor="@color/black"
